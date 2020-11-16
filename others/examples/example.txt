@@ -1,0 +1,14 @@
+# Копируйте примеры столько раз, сколько необходимо и меняйте данные на свои
+# Ни в коем случае не изменяйте ключевые файлы и не убирайте двоеточия (использовать их можно), не то потеряете фильмы на выходе (скрипт их не увидит)
+
+Title: Blazing Saddles
+Release Year: 1974
+Format: VHS
+Stars: Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn
+
+
+Title: Casablanca
+Release Year: 1942
+Format: DVD
+Stars: Humphrey Bogart, Ingrid Bergman, Claude Rains, Peter Lorre
+
