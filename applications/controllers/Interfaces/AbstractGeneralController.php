@@ -1,6 +1,6 @@
 <?php
 
-namespace applications\controllers\interfaces;
+namespace applications\controllers\Interfaces;
 
 abstract class AbstractGeneralController
 {

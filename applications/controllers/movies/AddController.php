@@ -2,7 +2,7 @@
 
 namespace applications\controllers\movies;
 
-use applications\controllers\interfaces\AbstractGeneralController;
+use applications\controllers\Interfaces\AbstractGeneralController;
 
 class AddController extends AbstractGeneralController
 {

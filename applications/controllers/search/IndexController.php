@@ -2,7 +2,7 @@
 
 namespace applications\controllers\search;
 
-use applications\controllers\interfaces\AbstractGeneralController;
+use applications\controllers\Interfaces\AbstractGeneralController;
 
 class IndexController extends AbstractGeneralController
 {

@@ -2,7 +2,7 @@
 
 namespace applications\controllers\movies;
 
-use applications\controllers\interfaces\AbstractGeneralController;
+use applications\controllers\Interfaces\AbstractGeneralController;
 use applications\models\DB\Models\Model;
 
 class ItemController extends AbstractGeneralController

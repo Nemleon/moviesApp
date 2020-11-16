@@ -2,7 +2,7 @@
 
 namespace applications\controllers\search;
 
-use applications\controllers\interfaces\AbstractGeneralController;
+use applications\controllers\Interfaces\AbstractGeneralController;
 use applications\models\DB\Models\Model;
 use applications\models\Validators\SearchRequestValidator;
 
