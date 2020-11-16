@@ -19,7 +19,7 @@ class View
 
     private function renderTemplate($contentView, $title)
     {
-        $layoutView = "applications\\views\\templates\\{$this->templateName}";
+        $layoutView = "applications/views/templates/{$this->templateName}";
 
         if (file_exists($layoutView)) {
             ob_start();
@@ -34,7 +34,7 @@ class View
 
     private function renderPage($viewName, $data)
     {
-        $view = "applications\\views\\{$viewName}";
+        $view = "applications/views/{$viewName}";
 
         if (file_exists($view)) {
             ob_start();
