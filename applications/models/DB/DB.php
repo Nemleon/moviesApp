@@ -13,13 +13,13 @@ class DB
     ];
 
     private $sqlType = 'mysql';
-    private $host = 'localhost';
+    private $host = '192.168.10.10';
     private $port = '3306';
-    private $DBName = 'movies_db';
+    private $DBName = 'homestead';
     private $charSet = 'utf8';
 
-    private $userName = 'root';
-    private $pass = '';
+    private $userName = 'homestead';
+    private $pass = 'secret';
 
     private $dns;
 
