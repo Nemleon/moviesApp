@@ -131,7 +131,7 @@ function sendMovie() {
 
     $.ajax({
         type:'POST',
-        url: "/movies/additem",
+        url: "/movies/AddItem",
         data:{
             data: dataToSend
         },
@@ -153,7 +153,7 @@ function sendFile() {
     fd.append('text', $input.prop('files')[0]);
 
     $.ajax({
-        url: "/movies/addmoviesfromfile",
+        url: "/movies/AddMoviesFromFile",
         data: fd,
         processData: false,
         contentType: false,
@@ -265,7 +265,7 @@ function deleteMovie(movieName) {
 
     $.ajax({
         type:'post',
-        url: "/movies/delete",
+        url: "/movies/Delete",
         data:{
             name: movieName
         },
